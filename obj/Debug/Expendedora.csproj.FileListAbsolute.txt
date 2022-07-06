@@ -1,0 +1,11 @@
+C:\Users\uriel\source\repos\Expendedora\Expendedora\bin\Debug\Expendedora.exe.config
+C:\Users\uriel\source\repos\Expendedora\Expendedora\bin\Debug\Expendedora.exe
+C:\Users\uriel\source\repos\Expendedora\Expendedora\bin\Debug\Expendedora.pdb
+C:\Users\uriel\source\repos\Expendedora\Expendedora\obj\Debug\Expendedora.csproj.AssemblyReference.cache
+C:\Users\uriel\source\repos\Expendedora\Expendedora\obj\Debug\Expendedora.csproj.SuggestedBindingRedirects.cache
+C:\Users\uriel\source\repos\Expendedora\Expendedora\obj\Debug\Expendedora.frmExpendedora.resources
+C:\Users\uriel\source\repos\Expendedora\Expendedora\obj\Debug\Expendedora.Properties.Resources.resources
+C:\Users\uriel\source\repos\Expendedora\Expendedora\obj\Debug\Expendedora.csproj.GenerateResource.cache
+C:\Users\uriel\source\repos\Expendedora\Expendedora\obj\Debug\Expendedora.csproj.CoreCompileInputs.cache
+C:\Users\uriel\source\repos\Expendedora\Expendedora\obj\Debug\Expendedora.exe
+C:\Users\uriel\source\repos\Expendedora\Expendedora\obj\Debug\Expendedora.pdb
