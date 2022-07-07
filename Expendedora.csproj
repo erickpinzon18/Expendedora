@@ -59,18 +59,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -80,38 +80,45 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\Maquina.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Cheetos bolitas.png" />
+    <None Include="Resources\MaquinaVacia.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Home _ Cheetos.gif" />
+    <None Include="Resources\Panel.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Home _ Cheetos.png" />
+    <None Include="Resources\prod1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Cheetos Crunchy Cheese Flavored Snacks - 8_5oz.jpg" />
+    <None Include="Resources\prod2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Cheetos Jumbo Puffs - 8_5oz.jpg" />
+    <None Include="Resources\prod3.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Cheetos Pizzerini.jpg" />
+    <None Include="Resources\prod4.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Sabritas.png" />
+    <None Include="Resources\prod5.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\SabLimon.png" />
+    <None Include="Resources\prod6.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Maquina1.png" />
+    <None Include="Resources\prod7.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Fritos.png" />
+    <None Include="Resources\prod8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prod9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prod10.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

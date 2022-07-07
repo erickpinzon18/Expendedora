@@ -86,7 +86,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Orange;
-            this.label1.Location = new System.Drawing.Point(165, 98);
+            this.label1.Location = new System.Drawing.Point(98, 100);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(39, 13);
             this.label1.TabIndex = 9;
@@ -94,100 +94,100 @@
             // 
             // pct9
             // 
-            this.pct9.Image = global::Expendedora.Properties.Resources.Fritos;
-            this.pct9.Location = new System.Drawing.Point(364, 215);
+            this.pct9.Image = ((System.Drawing.Image)(resources.GetObject("pct9.Image")));
+            this.pct9.Location = new System.Drawing.Point(328, 194);
             this.pct9.Name = "pct9";
-            this.pct9.Size = new System.Drawing.Size(114, 73);
+            this.pct9.Size = new System.Drawing.Size(56, 52);
             this.pct9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pct9.TabIndex = 12;
             this.pct9.TabStop = false;
             // 
             // pct8
             // 
-            this.pct8.Image = global::Expendedora.Properties.Resources.SabLimon;
-            this.pct8.Location = new System.Drawing.Point(244, 215);
+            this.pct8.Image = ((System.Drawing.Image)(resources.GetObject("pct8.Image")));
+            this.pct8.Location = new System.Drawing.Point(208, 194);
             this.pct8.Name = "pct8";
-            this.pct8.Size = new System.Drawing.Size(114, 73);
+            this.pct8.Size = new System.Drawing.Size(56, 52);
             this.pct8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pct8.TabIndex = 8;
             this.pct8.TabStop = false;
             // 
             // pct7
             // 
-            this.pct7.Image = global::Expendedora.Properties.Resources.Sabritas;
-            this.pct7.Location = new System.Drawing.Point(127, 215);
+            this.pct7.Image = ((System.Drawing.Image)(resources.GetObject("pct7.Image")));
+            this.pct7.Location = new System.Drawing.Point(91, 194);
             this.pct7.Name = "pct7";
-            this.pct7.Size = new System.Drawing.Size(111, 73);
+            this.pct7.Size = new System.Drawing.Size(53, 52);
             this.pct7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pct7.TabIndex = 7;
             this.pct7.TabStop = false;
             // 
             // pct6
             // 
-            this.pct6.Image = global::Expendedora.Properties.Resources.Cheetos_Pizzerini;
-            this.pct6.Location = new System.Drawing.Point(364, 123);
+            this.pct6.Image = ((System.Drawing.Image)(resources.GetObject("pct6.Image")));
+            this.pct6.Location = new System.Drawing.Point(328, 122);
             this.pct6.Name = "pct6";
-            this.pct6.Size = new System.Drawing.Size(107, 71);
+            this.pct6.Size = new System.Drawing.Size(49, 50);
             this.pct6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pct6.TabIndex = 6;
             this.pct6.TabStop = false;
             // 
             // pct5
             // 
-            this.pct5.Image = global::Expendedora.Properties.Resources.Cheetos_Jumbo_Puffs___8_5oz;
-            this.pct5.Location = new System.Drawing.Point(244, 123);
+            this.pct5.Image = ((System.Drawing.Image)(resources.GetObject("pct5.Image")));
+            this.pct5.Location = new System.Drawing.Point(208, 122);
             this.pct5.Name = "pct5";
-            this.pct5.Size = new System.Drawing.Size(114, 71);
+            this.pct5.Size = new System.Drawing.Size(56, 50);
             this.pct5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pct5.TabIndex = 5;
             this.pct5.TabStop = false;
             // 
             // pct4
             // 
-            this.pct4.Image = global::Expendedora.Properties.Resources.Cheetos_Crunchy_Cheese_Flavored_Snacks___8_5oz;
-            this.pct4.Location = new System.Drawing.Point(127, 123);
+            this.pct4.Image = ((System.Drawing.Image)(resources.GetObject("pct4.Image")));
+            this.pct4.Location = new System.Drawing.Point(91, 122);
             this.pct4.Name = "pct4";
-            this.pct4.Size = new System.Drawing.Size(111, 71);
+            this.pct4.Size = new System.Drawing.Size(53, 50);
             this.pct4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pct4.TabIndex = 4;
             this.pct4.TabStop = false;
             // 
             // pct3
             // 
-            this.pct3.Image = global::Expendedora.Properties.Resources.Home___Cheetos1;
-            this.pct3.Location = new System.Drawing.Point(364, 30);
+            this.pct3.Image = ((System.Drawing.Image)(resources.GetObject("pct3.Image")));
+            this.pct3.Location = new System.Drawing.Point(328, 57);
             this.pct3.Name = "pct3";
-            this.pct3.Size = new System.Drawing.Size(107, 65);
+            this.pct3.Size = new System.Drawing.Size(49, 44);
             this.pct3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pct3.TabIndex = 3;
             this.pct3.TabStop = false;
             // 
             // pct2
             // 
-            this.pct2.Image = global::Expendedora.Properties.Resources.Home___Cheetos;
-            this.pct2.Location = new System.Drawing.Point(253, 30);
+            this.pct2.Image = ((System.Drawing.Image)(resources.GetObject("pct2.Image")));
+            this.pct2.Location = new System.Drawing.Point(217, 57);
             this.pct2.Name = "pct2";
-            this.pct2.Size = new System.Drawing.Size(96, 65);
+            this.pct2.Size = new System.Drawing.Size(38, 44);
             this.pct2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pct2.TabIndex = 2;
             this.pct2.TabStop = false;
             // 
             // pct1
             // 
-            this.pct1.Image = global::Expendedora.Properties.Resources.Cheetos_bolitas;
-            this.pct1.Location = new System.Drawing.Point(127, 30);
+            this.pct1.Image = ((System.Drawing.Image)(resources.GetObject("pct1.Image")));
+            this.pct1.Location = new System.Drawing.Point(91, 57);
             this.pct1.Name = "pct1";
-            this.pct1.Size = new System.Drawing.Size(111, 65);
+            this.pct1.Size = new System.Drawing.Size(53, 44);
             this.pct1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pct1.TabIndex = 1;
             this.pct1.TabStop = false;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Expendedora.Properties.Resources.Maquina1;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(804, 458);
+            this.pictureBox1.Size = new System.Drawing.Size(626, 653);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
@@ -197,7 +197,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Orange;
-            this.label2.Location = new System.Drawing.Point(279, 98);
+            this.label2.Location = new System.Drawing.Point(212, 100);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 13);
             this.label2.TabIndex = 13;
@@ -208,7 +208,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Orange;
-            this.label3.Location = new System.Drawing.Point(397, 98);
+            this.label3.Location = new System.Drawing.Point(330, 100);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(43, 13);
             this.label3.TabIndex = 14;
@@ -219,7 +219,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Orange;
-            this.label4.Location = new System.Drawing.Point(161, 197);
+            this.label4.Location = new System.Drawing.Point(95, 172);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(43, 13);
             this.label4.TabIndex = 15;
@@ -230,7 +230,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Orange;
-            this.label5.Location = new System.Drawing.Point(279, 197);
+            this.label5.Location = new System.Drawing.Point(213, 172);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(43, 13);
             this.label5.TabIndex = 16;
@@ -241,7 +241,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Orange;
-            this.label6.Location = new System.Drawing.Point(397, 197);
+            this.label6.Location = new System.Drawing.Point(331, 172);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(43, 13);
             this.label6.TabIndex = 17;
@@ -252,7 +252,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Orange;
-            this.label7.Location = new System.Drawing.Point(161, 291);
+            this.label7.Location = new System.Drawing.Point(96, 245);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(43, 13);
             this.label7.TabIndex = 18;
@@ -263,7 +263,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Orange;
-            this.label9.Location = new System.Drawing.Point(279, 291);
+            this.label9.Location = new System.Drawing.Point(214, 245);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(43, 13);
             this.label9.TabIndex = 19;
@@ -274,7 +274,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Orange;
-            this.label10.Location = new System.Drawing.Point(397, 291);
+            this.label10.Location = new System.Drawing.Point(332, 245);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(43, 13);
             this.label10.TabIndex = 20;
@@ -282,7 +282,7 @@
             // 
             // btn1
             // 
-            this.btn1.Location = new System.Drawing.Point(541, 171);
+            this.btn1.Location = new System.Drawing.Point(513, 229);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(22, 23);
             this.btn1.TabIndex = 21;
@@ -292,7 +292,7 @@
             // 
             // btn2
             // 
-            this.btn2.Location = new System.Drawing.Point(593, 171);
+            this.btn2.Location = new System.Drawing.Point(541, 228);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(22, 23);
             this.btn2.TabIndex = 22;
@@ -302,7 +302,7 @@
             // 
             // btn3
             // 
-            this.btn3.Location = new System.Drawing.Point(643, 171);
+            this.btn3.Location = new System.Drawing.Point(569, 228);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(22, 23);
             this.btn3.TabIndex = 23;
@@ -312,7 +312,7 @@
             // 
             // btn4
             // 
-            this.btn4.Location = new System.Drawing.Point(541, 200);
+            this.btn4.Location = new System.Drawing.Point(513, 257);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(22, 23);
             this.btn4.TabIndex = 24;
@@ -322,7 +322,7 @@
             // 
             // btn5
             // 
-            this.btn5.Location = new System.Drawing.Point(593, 200);
+            this.btn5.Location = new System.Drawing.Point(541, 257);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(22, 23);
             this.btn5.TabIndex = 25;
@@ -332,7 +332,7 @@
             // 
             // btn8
             // 
-            this.btn8.Location = new System.Drawing.Point(593, 229);
+            this.btn8.Location = new System.Drawing.Point(541, 286);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(22, 23);
             this.btn8.TabIndex = 26;
@@ -342,7 +342,7 @@
             // 
             // btn6
             // 
-            this.btn6.Location = new System.Drawing.Point(643, 200);
+            this.btn6.Location = new System.Drawing.Point(569, 257);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(22, 23);
             this.btn6.TabIndex = 26;
@@ -352,7 +352,7 @@
             // 
             // btn7
             // 
-            this.btn7.Location = new System.Drawing.Point(541, 229);
+            this.btn7.Location = new System.Drawing.Point(513, 286);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(22, 23);
             this.btn7.TabIndex = 27;
@@ -362,7 +362,7 @@
             // 
             // btn9
             // 
-            this.btn9.Location = new System.Drawing.Point(643, 229);
+            this.btn9.Location = new System.Drawing.Point(569, 286);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(22, 23);
             this.btn9.TabIndex = 28;
@@ -374,14 +374,14 @@
             // 
             this.txtClave.BackColor = System.Drawing.Color.Cyan;
             this.txtClave.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtClave.Location = new System.Drawing.Point(547, 135);
+            this.txtClave.Location = new System.Drawing.Point(506, 123);
             this.txtClave.Name = "txtClave";
-            this.txtClave.Size = new System.Drawing.Size(118, 20);
+            this.txtClave.Size = new System.Drawing.Size(71, 20);
             this.txtClave.TabIndex = 29;
             // 
             // txtDinero
             // 
-            this.txtDinero.Location = new System.Drawing.Point(603, 96);
+            this.txtDinero.Location = new System.Drawing.Point(513, 364);
             this.txtDinero.Name = "txtDinero";
             this.txtDinero.Size = new System.Drawing.Size(72, 20);
             this.txtDinero.TabIndex = 30;
@@ -389,7 +389,7 @@
             // rdb1
             // 
             this.rdb1.AutoSize = true;
-            this.rdb1.Location = new System.Drawing.Point(541, 30);
+            this.rdb1.Location = new System.Drawing.Point(534, 415);
             this.rdb1.Name = "rdb1";
             this.rdb1.Size = new System.Drawing.Size(37, 17);
             this.rdb1.TabIndex = 31;
@@ -401,7 +401,7 @@
             // rbd2
             // 
             this.rbd2.AutoSize = true;
-            this.rbd2.Location = new System.Drawing.Point(541, 53);
+            this.rbd2.Location = new System.Drawing.Point(534, 438);
             this.rbd2.Name = "rbd2";
             this.rbd2.Size = new System.Drawing.Size(37, 17);
             this.rbd2.TabIndex = 32;
@@ -413,7 +413,7 @@
             // rdb5
             // 
             this.rdb5.AutoSize = true;
-            this.rdb5.Location = new System.Drawing.Point(541, 76);
+            this.rdb5.Location = new System.Drawing.Point(534, 461);
             this.rdb5.Name = "rdb5";
             this.rdb5.Size = new System.Drawing.Size(37, 17);
             this.rdb5.TabIndex = 33;
@@ -425,7 +425,7 @@
             // rdb10
             // 
             this.rdb10.AutoSize = true;
-            this.rdb10.Location = new System.Drawing.Point(541, 99);
+            this.rdb10.Location = new System.Drawing.Point(534, 484);
             this.rdb10.Name = "rdb10";
             this.rdb10.Size = new System.Drawing.Size(43, 17);
             this.rdb10.TabIndex = 34;
@@ -436,7 +436,7 @@
             // 
             // pctProducto
             // 
-            this.pctProducto.Location = new System.Drawing.Point(249, 334);
+            this.pctProducto.Location = new System.Drawing.Point(101, 549);
             this.pctProducto.Name = "pctProducto";
             this.pctProducto.Size = new System.Drawing.Size(100, 50);
             this.pctProducto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -445,7 +445,7 @@
             // 
             // txtCambio
             // 
-            this.txtCambio.Location = new System.Drawing.Point(566, 349);
+            this.txtCambio.Location = new System.Drawing.Point(519, 560);
             this.txtCambio.Name = "txtCambio";
             this.txtCambio.Size = new System.Drawing.Size(72, 20);
             this.txtCambio.TabIndex = 36;
@@ -455,7 +455,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Orange;
-            this.label8.Location = new System.Drawing.Point(576, 333);
+            this.label8.Location = new System.Drawing.Point(529, 529);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(48, 13);
             this.label8.TabIndex = 37;
@@ -479,7 +479,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(627, 655);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txtCambio);
             this.Controls.Add(this.pctProducto);

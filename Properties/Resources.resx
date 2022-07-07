@@ -118,37 +118,86 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Maquina1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Maquina1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="prod4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prod4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Home _ Cheetos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Home _ Cheetos.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="prod6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prod6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cheetos Pizzerini" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cheetos Pizzerini.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="prod8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prod8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cheetos Jumbo Puffs - 8_5oz" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cheetos Jumbo Puffs - 8_5oz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  
+  <data name="prod1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prod1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cheetos bolitas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cheetos bolitas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="prod9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prod9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cheetos Crunchy Cheese Flavored Snacks - 8_5oz" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cheetos Crunchy Cheese Flavored Snacks - 8_5oz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MaquinaVacia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MaquinaVacia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Home _ Cheetos1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Home _ Cheetos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sabritas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sabritas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SabLimon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SabLimon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  
   <data name="Maquina" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Maquina.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Fritos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fritos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+ 
+  <data name="prod2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prod2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+ 
+  <data name="prod61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prod6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Panel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Panel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prod10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prod10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prod3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prod3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prod7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prod7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prod5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prod5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MaquinaVacia1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MaquinaVacia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Panel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Panel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prod11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prod1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prod21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prod2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prod31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prod3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prod41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prod4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prod51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prod5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prod62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prod6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prod71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prod7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prod81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prod8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prod91" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prod9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prod101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prod10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
