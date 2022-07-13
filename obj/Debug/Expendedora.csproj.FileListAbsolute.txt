@@ -20,3 +20,4 @@ C:\Users\erick\Documents\GitHub\Expendedora\obj\Debug\Expendedora.csproj.Generat
 C:\Users\erick\Documents\GitHub\Expendedora\obj\Debug\Expendedora.csproj.CoreCompileInputs.cache
 C:\Users\erick\Documents\GitHub\Expendedora\obj\Debug\Expendedora.exe
 C:\Users\erick\Documents\GitHub\Expendedora\obj\Debug\Expendedora.pdb
+C:\Users\erick\Documents\GitHub\Expendedora\obj\Debug\Expendedora.exe.config
