@@ -9,9 +9,9 @@ namespace Expendedora
     {
         // DECLARACION DE ATRIBUTOS PARA REALIZAR LA CONEXION
         string servidor = "localhost";
-        string bd = "maquina";
+        string bd = "dispensador";
         string usuario = "root";
-        string password = "root";
+        string password = "";
         public MySqlConnection connection;
 
 

@@ -22,6 +22,7 @@ namespace Expendedora
             txtDinero.Enabled = false;
             inhabilitarBotones();
             pctProducto.Visible = false;
+            SinStock();
         }
 
         int cve_prodP, stock_prod;
@@ -44,7 +45,7 @@ namespace Expendedora
                 try
                 {
 
-                    SQL = "select id_pro, stock from producto";
+                    SQL = "select id_pro, stock from productos";
                     Query = new MySqlCommand(SQL, con.connection);
                     registros = Query.ExecuteReader();
                     while (registros.Read())
@@ -73,6 +74,15 @@ namespace Expendedora
                                 case 6:
                                     pct6.Visible = false;
                                     break;
+                                case 7:
+                                    pct7.Visible = false;
+                                    break;
+                                case 8:
+                                    pct8.Visible = false;
+                                    break;
+                                case 9:
+                                    pct9.Visible = false;
+                                    break;
                             }
                         }
                     }
@@ -89,6 +99,25 @@ namespace Expendedora
             }
         }
 
+        int modTot = 0;
+        int modStock = 0;
+        double cambio = 0;
+
+        public void limpiar()
+        {
+            txtDinero.Clear();
+            txtCambio.Clear();
+            SinStock();
+            prodP = "";
+            prec_prodP = 0;
+            cve_prodP = 0;
+            cambio = 0;
+            dineroP = 0;
+            inhabilitarBotones();
+            modStock = 0;
+            modTot = 0;
+        }
+
         public void ComprarProducto()
         {
             if (con.abrirBD() == true)
@@ -97,7 +126,7 @@ namespace Expendedora
                 try
                 {
 
-                    SQL = "select * from producto where id_pro=" + prod.Clave1;
+                    SQL = "select * from productos where id_pro=" + prod.Clave1;
                     Query = new MySqlCommand(SQL, con.connection);
                     registros = Query.ExecuteReader();
                     while (registros.Read())
@@ -114,19 +143,23 @@ namespace Expendedora
                             {
                                 try
                                 {
-                                    SQL = "update producto set stock = stock-1 where id_pro=" + prod.Clave1;
+                                    SQL = "update productos set stock = stock-1 where id_pro=" + prod.Clave1;
                                     Query = new MySqlCommand(SQL, con.connection);
-                                    int modStock = Query.ExecuteNonQuery();
+                                    modStock = Query.ExecuteNonQuery();
                                     if (modStock == 1)
                                     {
                                         try
                                         {
-                                            SQL = "update producto set tot = tot+precio where id_pro=" + prod.Clave1;
+                                            SQL = "update productos set tot = tot+precio where id_pro=" + prod.Clave1;
                                             Query = new MySqlCommand(SQL, con.connection);
-                                            int modTot = Query.ExecuteNonQuery();
+                                            modTot = Query.ExecuteNonQuery();
                                             if (modTot == 1)
                                             {
-                                                double cambio = dineroP - prec_prodP;
+                                                MessageBox.Show("Compra exitosa");
+                                                pctProducto.Visible = true;
+                                                pctProducto.Image = mglProducto.Images[cve_prodP-1];
+
+                                                cambio = dineroP - prec_prodP;
                                                 txtCambio.Text = "$" + cambio;
                                             }
 
@@ -227,6 +260,16 @@ namespace Expendedora
         private void btn2_Click(object sender, EventArgs e)
         {
             txtClave.Text = Convert.ToString(prodP = prodP + "2");
+        }
+
+        private void txtDinero_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnComprar_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void btn1_Click(object sender, EventArgs e)

@@ -68,6 +68,10 @@
             this.txtCambio = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.mglProducto = new System.Windows.Forms.ImageList(this.components);
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnComprar = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pct9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct7)).BeginInit();
@@ -79,6 +83,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pct1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctProducto)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -282,7 +289,7 @@
             // 
             // btn1
             // 
-            this.btn1.Location = new System.Drawing.Point(513, 229);
+            this.btn1.Location = new System.Drawing.Point(3, 16);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(22, 23);
             this.btn1.TabIndex = 21;
@@ -292,7 +299,7 @@
             // 
             // btn2
             // 
-            this.btn2.Location = new System.Drawing.Point(541, 228);
+            this.btn2.Location = new System.Drawing.Point(31, 15);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(22, 23);
             this.btn2.TabIndex = 22;
@@ -302,7 +309,7 @@
             // 
             // btn3
             // 
-            this.btn3.Location = new System.Drawing.Point(569, 228);
+            this.btn3.Location = new System.Drawing.Point(59, 15);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(22, 23);
             this.btn3.TabIndex = 23;
@@ -312,7 +319,7 @@
             // 
             // btn4
             // 
-            this.btn4.Location = new System.Drawing.Point(513, 257);
+            this.btn4.Location = new System.Drawing.Point(3, 44);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(22, 23);
             this.btn4.TabIndex = 24;
@@ -322,7 +329,7 @@
             // 
             // btn5
             // 
-            this.btn5.Location = new System.Drawing.Point(541, 257);
+            this.btn5.Location = new System.Drawing.Point(31, 44);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(22, 23);
             this.btn5.TabIndex = 25;
@@ -332,7 +339,7 @@
             // 
             // btn8
             // 
-            this.btn8.Location = new System.Drawing.Point(541, 286);
+            this.btn8.Location = new System.Drawing.Point(31, 73);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(22, 23);
             this.btn8.TabIndex = 26;
@@ -342,7 +349,7 @@
             // 
             // btn6
             // 
-            this.btn6.Location = new System.Drawing.Point(569, 257);
+            this.btn6.Location = new System.Drawing.Point(59, 44);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(22, 23);
             this.btn6.TabIndex = 26;
@@ -352,7 +359,7 @@
             // 
             // btn7
             // 
-            this.btn7.Location = new System.Drawing.Point(513, 286);
+            this.btn7.Location = new System.Drawing.Point(3, 73);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(22, 23);
             this.btn7.TabIndex = 27;
@@ -362,7 +369,7 @@
             // 
             // btn9
             // 
-            this.btn9.Location = new System.Drawing.Point(569, 286);
+            this.btn9.Location = new System.Drawing.Point(59, 73);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(22, 23);
             this.btn9.TabIndex = 28;
@@ -381,15 +388,16 @@
             // 
             // txtDinero
             // 
-            this.txtDinero.Location = new System.Drawing.Point(513, 364);
+            this.txtDinero.Location = new System.Drawing.Point(511, 361);
             this.txtDinero.Name = "txtDinero";
-            this.txtDinero.Size = new System.Drawing.Size(72, 20);
+            this.txtDinero.Size = new System.Drawing.Size(74, 20);
             this.txtDinero.TabIndex = 30;
+            this.txtDinero.TextChanged += new System.EventHandler(this.txtDinero_TextChanged);
             // 
             // rdb1
             // 
             this.rdb1.AutoSize = true;
-            this.rdb1.Location = new System.Drawing.Point(534, 415);
+            this.rdb1.Location = new System.Drawing.Point(18, 11);
             this.rdb1.Name = "rdb1";
             this.rdb1.Size = new System.Drawing.Size(37, 17);
             this.rdb1.TabIndex = 31;
@@ -401,7 +409,7 @@
             // rbd2
             // 
             this.rbd2.AutoSize = true;
-            this.rbd2.Location = new System.Drawing.Point(534, 438);
+            this.rbd2.Location = new System.Drawing.Point(18, 34);
             this.rbd2.Name = "rbd2";
             this.rbd2.Size = new System.Drawing.Size(37, 17);
             this.rbd2.TabIndex = 32;
@@ -413,7 +421,7 @@
             // rdb5
             // 
             this.rdb5.AutoSize = true;
-            this.rdb5.Location = new System.Drawing.Point(534, 461);
+            this.rdb5.Location = new System.Drawing.Point(18, 57);
             this.rdb5.Name = "rdb5";
             this.rdb5.Size = new System.Drawing.Size(37, 17);
             this.rdb5.TabIndex = 33;
@@ -425,7 +433,7 @@
             // rdb10
             // 
             this.rdb10.AutoSize = true;
-            this.rdb10.Location = new System.Drawing.Point(534, 484);
+            this.rdb10.Location = new System.Drawing.Point(18, 80);
             this.rdb10.Name = "rdb10";
             this.rdb10.Size = new System.Drawing.Size(43, 17);
             this.rdb10.TabIndex = 34;
@@ -436,7 +444,7 @@
             // 
             // pctProducto
             // 
-            this.pctProducto.Location = new System.Drawing.Point(101, 549);
+            this.pctProducto.Location = new System.Drawing.Point(88, 0);
             this.pctProducto.Name = "pctProducto";
             this.pctProducto.Size = new System.Drawing.Size(100, 50);
             this.pctProducto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -465,39 +473,78 @@
             // 
             this.mglProducto.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("mglProducto.ImageStream")));
             this.mglProducto.TransparentColor = System.Drawing.Color.Transparent;
-            this.mglProducto.Images.SetKeyName(0, "1.png");
-            this.mglProducto.Images.SetKeyName(1, "2.gif");
-            this.mglProducto.Images.SetKeyName(2, "3.png");
-            this.mglProducto.Images.SetKeyName(3, "4.jpg");
-            this.mglProducto.Images.SetKeyName(4, "5.jpg");
-            this.mglProducto.Images.SetKeyName(5, "6.jpg");
-            this.mglProducto.Images.SetKeyName(6, "7.png");
-            this.mglProducto.Images.SetKeyName(7, "8.png");
-            this.mglProducto.Images.SetKeyName(8, "9.png");
+            this.mglProducto.Images.SetKeyName(0, "prod1.png");
+            this.mglProducto.Images.SetKeyName(1, "prod2.png");
+            this.mglProducto.Images.SetKeyName(2, "prod3.png");
+            this.mglProducto.Images.SetKeyName(3, "prod4.png");
+            this.mglProducto.Images.SetKeyName(4, "prod5.png");
+            this.mglProducto.Images.SetKeyName(5, "prod6.png");
+            this.mglProducto.Images.SetKeyName(6, "prod7.png");
+            this.mglProducto.Images.SetKeyName(7, "prod8.png");
+            this.mglProducto.Images.SetKeyName(8, "prod9.png");
+            this.mglProducto.Images.SetKeyName(9, "prod10.png");
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.rdb10);
+            this.groupBox1.Controls.Add(this.rdb1);
+            this.groupBox1.Controls.Add(this.rbd2);
+            this.groupBox1.Controls.Add(this.rdb5);
+            this.groupBox1.Location = new System.Drawing.Point(510, 387);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(75, 108);
+            this.groupBox1.TabIndex = 38;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "1";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.btn9);
+            this.groupBox2.Controls.Add(this.btn1);
+            this.groupBox2.Controls.Add(this.btn2);
+            this.groupBox2.Controls.Add(this.btn3);
+            this.groupBox2.Controls.Add(this.btn4);
+            this.groupBox2.Controls.Add(this.btn5);
+            this.groupBox2.Controls.Add(this.btn8);
+            this.groupBox2.Controls.Add(this.btn6);
+            this.groupBox2.Controls.Add(this.btn7);
+            this.groupBox2.Location = new System.Drawing.Point(508, 223);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(84, 106);
+            this.groupBox2.TabIndex = 39;
+            this.groupBox2.TabStop = false;
+            // 
+            // btnComprar
+            // 
+            this.btnComprar.Location = new System.Drawing.Point(514, 185);
+            this.btnComprar.Name = "btnComprar";
+            this.btnComprar.Size = new System.Drawing.Size(75, 23);
+            this.btnComprar.TabIndex = 40;
+            this.btnComprar.Text = "Comprar";
+            this.btnComprar.UseVisualStyleBackColor = true;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.pctProducto);
+            this.panel1.Location = new System.Drawing.Point(101, 549);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(276, 48);
+            this.panel1.TabIndex = 41;
             // 
             // frmExpendedora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(627, 655);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.btnComprar);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txtCambio);
-            this.Controls.Add(this.pctProducto);
-            this.Controls.Add(this.rdb10);
-            this.Controls.Add(this.rdb5);
-            this.Controls.Add(this.rbd2);
-            this.Controls.Add(this.rdb1);
             this.Controls.Add(this.txtDinero);
             this.Controls.Add(this.txtClave);
-            this.Controls.Add(this.btn9);
-            this.Controls.Add(this.btn7);
-            this.Controls.Add(this.btn6);
-            this.Controls.Add(this.btn8);
-            this.Controls.Add(this.btn5);
-            this.Controls.Add(this.btn4);
-            this.Controls.Add(this.btn3);
-            this.Controls.Add(this.btn2);
-            this.Controls.Add(this.btn1);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label7);
@@ -530,6 +577,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pct1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctProducto)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -574,6 +625,10 @@
         private System.Windows.Forms.TextBox txtCambio;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ImageList mglProducto;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button btnComprar;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
